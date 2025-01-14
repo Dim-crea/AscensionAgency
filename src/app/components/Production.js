@@ -8,7 +8,7 @@ import whatsapp from '@/app/public/WhatsApp.svg'
 export default function InProduction(){
     return(
          <div>
-                    <div className="w-full pt-40 place-items-center">
+                    <div className="w-full pt-5 place-items-center">
                         <Image 
                         src={logoAscension}
                         alt="Logo de Ascension Agency"
