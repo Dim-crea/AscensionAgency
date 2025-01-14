@@ -21,7 +21,7 @@ export default function InProduction(){
                             Une image de marque à la hauteur de vos ambitions
                         </h2>
 
-                        <p className="my-5">Site en préparations</p>
+                        <p className="my-5">Site en préparation</p>
                         <a href="https://wa.me/qr/7P7W6VFES7EYB1">
                         <Image
                         src={whatsapp}
