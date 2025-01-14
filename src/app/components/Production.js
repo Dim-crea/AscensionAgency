@@ -22,11 +22,12 @@ export default function InProduction(){
                         </h2>
 
                         <p className="my-5">Site en préparations</p>
-
+                        <a href="https://wa.me/qr/7P7W6VFES7EYB1">
                         <Image
                         src={whatsapp}
                         className="h-10 "
                         />
+                        </a>
                     </div>
 
                     
