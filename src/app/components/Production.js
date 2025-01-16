@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logoAscension from '@/app/public/LogoAscensionAgency.svg'
 import fondAscension from '@/app/public/FondAscension.svg'
-import forward from '@/app/public/Forward1.svg'
+import instagram from '@/app/public/Instagram1.svg'
 import whatsapp from '@/app/public/WhatsApp.svg'
 
 export default function InProduction(){
@@ -22,16 +22,22 @@ export default function InProduction(){
                         </h2>
 
                         <p className="my-5">Site en préparation</p>
-                        <a href="https://wa.me/qr/7P7W6VFES7EYB1">
-                        <Image
-                        src={whatsapp}
-                        className="h-10 "
-                        />
-                        </a>
+                        <div className="flex ">
+                            <a href="https://wa.me/qr/7P7W6VFES7EYB1">
+                            <Image
+                            src={whatsapp}
+                            className="h-10 "
+                            />
+                            </a>
+                            <a href="https://www.instagram.com/ascensionagency34?igsh=MXU2Y3QzaW1pd2FjcQ==">
+                            <Image
+                            src={instagram}
+                            className="h-10 "
+                            />
+                            </a>
+                        </div>
+                        
                     </div>
-
-                    
-                    
                 </div>
     );
 }
