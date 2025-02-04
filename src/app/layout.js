@@ -12,6 +12,8 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+
+
 export const metadata = {
   title: "Ascension Agency",
   description: "Ascension Agency a été créer pour booster toutes les entreprises ambitieuses souhaitants une présences digitales à la hauteur de leurs images.",

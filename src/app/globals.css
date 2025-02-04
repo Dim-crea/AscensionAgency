@@ -3,21 +3,42 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ffffff;
+  --accentcolor: #0BF8B5;
+  --titlesection: #1CE9DD;
+  --background: #011422;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "Montserrat";
+  src: url('fonts/Montserrat-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas";
+  src: url('fonts/BebasNeue-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url('fonts/Poppins-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat";
+  background-color: #011422;
+  color:#ffff;
+}
+
+h1, h2{
+  font-family:"Bebas";
+}
+
+h3{
+  font-family: "Poppins";
 }
 
 #background-video {
@@ -31,3 +52,10 @@ body {
   bottom: 0;
   z-index: -1;
   }
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
