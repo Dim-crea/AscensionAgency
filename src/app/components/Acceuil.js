@@ -26,8 +26,9 @@ export default function Acceuil(){
                         />
                     </div>
                     
-                    <div className="mx-5 pt-2">
-                        <h2 className="my-5 text-4xl text-center">
+                    <div className=" ">
+                        <div className="bg-gradient-to-t from-background to-transparent h-20 "></div>
+                        <h2 className="mb-5 -mt-14 text-4xl text-center">
                             Votre présence numérique <br/>au niveau de vos ambitions
                         </h2>
                         <p className=" text-sm mx-8">
